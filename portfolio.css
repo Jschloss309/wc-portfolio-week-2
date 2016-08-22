@@ -1,0 +1,261 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body {
+  text-align: center
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+div.Profile {
+  background-image: url("");
+  background-color: black;
+  background-size: cover;
+}
+div.AboutMe {
+  background-image: url("");
+  background-color: black;
+  background-size: cover;
+}
+div.Wyncode {
+  background-image: url("");
+  background-color: black;
+  background-size: cover;
+}
+div.Contact {
+  background-image: url("");
+  background-color: black;
+  background-size: cover;
+}
+
+p img.Profile {
+  height: 0.75em;
+  margin-top: 9px;
+  border-radius: 25%;
+  box-shadow: 1px 2px 1px black, 0 0 10px white, 0 0 10px black;
+  border: 0px hidden;
+}
+
+#Welcome {
+ font-size: 10em;
+ color: white;
+ font-family: 'Orbitron', sans-serif;
+ text-shadow: 1px 2px 2px black, 0 0 10px white, 0 0 10px black;
+}
+
+#Qoute1 {
+  font-size: 2em;
+   color: white;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   font-family: 'Philosopher', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#Social {
+  margin-bottom: 2em;
+}
+
+img.LinkedIn {
+  height: 6em;
+}
+
+img.GitHub {
+  height: 6em;
+  margin: 0 4px;
+}
+
+img.Twitter {
+  height: 6em;
+}
+
+div.Contact {
+  float: left;
+  margin-left: 1em;
+  padding-left: 5em;
+}
+div.Wyncode {
+  float: right
+  margin-right: 2em;
+  padding-right: 7em;
+  background-color: black;
+}
+
+img.HTMLCSSJS {
+  margin-top: 0.5em;
+  height: 10em;
+  background-color: black;
+}
+img.Ruby {
+  height: 10em;
+  background-color: black;
+}
+
+#Qoute2 {
+  font-size: 2em;
+   color: white;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   font-family: 'Philosopher', sans-serif;
+}
+
+#AboutMe {
+  padding: 0.2em 0 0 0;
+  font-size: 5em;
+  color: white;
+  font-family: 'Syncopate', sans-serif;
+  text-shadow: 1px 1px 1px black, 0 0 10px white, 0 0 15px black;
+}
+
+#P1Title {
+  width:450px;
+  float: right;
+  margin-right: 7.3em;
+  margin-bottom: 1em;
+  padding-right: 2em;
+  color: white;
+  text-align: left;
+  font-size: 2em;
+
+}
+#P1 {
+  width:450px;
+  float: right;
+  margin-right: 10em;
+  margin-bottom: 2em;
+  padding-right: 5.5em;
+  color: white;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#P2Title {
+  width:1100px;
+  float: left;
+  margin-top: 0.2em;
+  margin-bottom: -0.7em;
+  margin-left: 2.5em;
+  padding-right: 2em;
+  color: white;
+  text-align: left;
+  font-size: 2em;
+}
+#P2 {
+  width: 1100px;
+  float: left;
+  margin-bottom: 0.8em;
+  padding-right: 5.5em;
+  padding-left: 4.5em;
+  color: white;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img.Avatar {
+    height: 18em;
+    float: left;
+    margin-top: 1em;
+    margin-left: 12em;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 50px grey;
+    border-radius: 25em 1em 25em 1em;
+}
+
+#Qoute3 {
+  margin-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2em;
+  color: white;
+  font-family: 'Philosopher', sans-serif;
+}
+
+#Contact {
+  padding: 0.15em 0 0 0;
+  font-size: 5em;
+  color: white;
+  font-family: 'Syncopate', sans-serif;
+  text-shadow: 1px 1px 1px black, 0 0 10px white, 0 0 15px black;
+}
+
+.Contact h2 {
+  color: white;
+  font-family: 'Mako', sans-serif;
+  margin-top: -0.5em;
+}
+.Contact p {
+  color: white;
+  font-family: 'Mako', sans-serif;
+}
+#Name {
+  font-size: 1.2em;
+}
+#Email {
+  font-size: 1.2em;
+}
+#Message {
+  font-size: 1.2em;
+}
+
+input[type="submit"]{
+  width: 10em;
+}
+input[type="reset"]{
+  width: 10em;
+}
+
+input[name="Name"]:hover {
+  border-color: orange;
+  width: 20em;
+  border-radius: 7px;
+}
+input[name="Email"]:hover {
+  width: 20em;
+  border-color: yellow;
+  border-radius: 7px;
+}
+input[name="Comment"]:hover {
+  width: 20em;
+  border-color: blue;
+  border-radius: 7px;
+}
+
+input[name="Name"] {
+  width: 20em;
+  border-radius: 7px;
+}
+input[name="Email"] {
+  width: 20em;
+  border-radius: 7px;
+}
+input[name="Comment"] {
+  width: 20em;
+  border-radius: 7px;
+}
+
+input[name="Name"]:focus {
+  width: 20em;
+  border-radius: 7px;
+    box-shadow: 0 0 10px orange;
+  border-radius: 7px;
+}
+input[name="Email"]:focus {
+  width: 20em;
+  border-radius: 7px;
+  box-shadow: 0 0 10px yellow;
+  border-radius: 7px;
+}
+input[name="Comment"]:focus {
+  width: 20em;
+  border-radius: 7px;
+  box-shadow: 0 0 10px blue;
+  border-radius: 7px;
+}
